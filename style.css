@@ -1,0 +1,138 @@
+body {
+    font-family: 'Jost', sans-serif;
+font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+nav ul {
+    position: sticky;
+    top: 0;
+    list-style: none;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px 14px;
+}
+
+ul li.logo {
+    float: left;
+}
+
+ul li.btn {
+    background-color: #6C63FF;
+    color: #fff;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing .content-landing {
+    width: 400px;
+    text-align: center;
+}
+
+.head-landing {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.content-landing .btn-more,
+.profile-content .btn-more, .send {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 2px;
+    background-color: #6C63FF;
+    color: #fff;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px 0px;
+}
+
+.profile img {
+    display: block;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.profile-content h2,
+.profile-content h3 {
+    margin: 0;
+}
+
+article h2,
+.bungkus {
+    text-align: center;
+}
+
+.card {
+    display: inline-table;
+    margin: 14px;
+    padding: 10px 0px;
+    background-color: #fff;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+.content-article {
+    margin: 10px 15px;
+}
+
+.content-article p {
+    text-align: left;
+    width: 300px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.content-article>button {
+    padding: 10px 118px;
+    border: none;
+    background-color: #6C63FF;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.saran-kritik h2 {
+    text-align: center;
+}
+.form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+form {
+    margin: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 6px;
+    margin: 6px 0px 5px 0px;
+}
+.form img {
+    margin: 70px auto;
+    width: 400px;
+
+}
+@media only screen and (max-width: 600px) {
+    li.menu, .form img {
+        display: none;
+    }
+    .form {
+        grid-template-columns: 100%;
+    }
+    form {
+        margin: 0px 60px;
+    }
+    .profile img {
+        width: 100%;
+    }
+}
