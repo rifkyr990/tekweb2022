@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    height: 100vh;
+}
+
+.container .form-switch {
+    position: absolute;
+    top: 20px;
+    right: 90px;
+}
+
+.container .form-switch input {
+    width: 60px;
+    height: 30px;
+}
+
+.container .image {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    z-index: 99;
+}
+
+.image img {
+    width: 390px;
+}
+
+.content {
+    position: relative;
+    top: 184px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 0;
+    min-width: 100px;
+    max-width: 400px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    left: 144px;
+    font-size: 22px;
+    display: inline-block;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icon:hover span,
+.icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.facebook:hover,
+.facebook:hover .tooltip,
+.facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+}
+
+.twitter:hover,
+.twitter:hover .tooltip,
+.twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+}
+
+.instagram:hover,
+.instagram:hover .tooltip,
+.instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+}
+
+.github:hover,
+.github:hover .tooltip,
+.github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.youtube:hover,
+.youtube:hover .tooltip,
+.youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+}
+
+.my-article {
+    height: 100vh;
+    padding-top: 40px;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+article .card {
+    margin: 20px 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    width: 18rem;
+}
+
+.about-me {
+    height: 100vh;
+}
+.container .kurung {padding-top: 150px;}
+.image-gede img {
+    width: 600px;
+}
+
+.content-about {
+    margin-left: 30px;
+}
+
+.content-about p {
+    max-width: 650px;
+    font-size: 17px;
+    line-height: 37px;
+}
+
+.btn-download {
+    color: #ffff;
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+}
+
+.btn-card {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    color: #ffff;
+}
+
+.mb-4:hover .card {
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+.mb-4 .card:hover {
+    filter: blur(0px);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.headbang::after {
+    content: "";
+    display: block;
+    margin: auto;
+    padding: 2px;
+    width: 320px;
+    background-color: #3b5999;
+}
+
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #fff;
+
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-dark {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .content-about{margin: 0;}
+    div.row.kurung{padding: 100px 30px 0px 30px;}
+}
+@media screen and (max-width: 768px){
+    .about-me {width: auto;}
+    .image-gede img {width: 100%; margin-bottom: 20px;}
+    .about-column{flex-direction: column;}
+    .content-about{margin: 0;}
+    div.row.kurung{padding: 100px 30px 0px 30px;}
+    .content-about p {font-size: 10px; line-height: 20px; }
+    .image img{display: none;}
+    p.card-text{font-size: 16px;}
+    .card , .about-me{width: 100%;}
+    .card-img-top {width: 100%;}
+    .my-article{height: 100%;}
+    .sosmed {margin-top: 10px;}
+    div.card.bg-light {width: 25rem;}
+    .container .form-switch{right: 40px;}
+}
