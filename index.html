@@ -185,8 +185,34 @@
             <a class="bg-light text-decoration-none" href="">Rifky Ramadhan</a>
         </div>
     </footer>
-    <script src="./script/dark.js"></script>
-    <script src="./script/script.js"></script>
+    <script>
+        var btnDark = document.getElementById("switchDark");
+        let card = document.getElementById("card");
+        window.addEventListener("load", function () {
+            if (btnDark) {
+                ganti();
+                btnDark.addEventListener("change", function () {
+                    reset();
+                })
+            }
+        })
+
+        function ganti() {
+            var modePeteng = localStorage.getItem("btnDark") !== null && localStorage.getItem("btnDark") === 'dark';
+            btnDark.checked = modePeteng;
+            modePeteng ? document.body.setAttribute("data-theme", "dark") : document.body.removeAttribute("data-theme");
+        }
+
+        function reset() {
+            if (btnDark.checked) {
+                document.body.setAttribute("data-theme", "dark");
+                localStorage.setItem("btnDark", "dark");
+            } else {
+                document.body.removeAttribute("data-theme");
+                localStorage.removeItem("btnDark");
+            }
+        }
+    </script>
     <script src="/fontawesome-free-5.15.4-web/js/all.min.js"></script>
     <script src="/fontawesome-free-5.15.4-web/js/fontawesome.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
