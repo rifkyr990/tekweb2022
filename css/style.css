@@ -213,4 +213,5 @@ article .card {
     .sosmed {margin-top: 10px;}
     div.card.bg-light {width: 25rem;}
     .container .form-switch{right: 40px;}
+    .content {width: 100%;font-size: 100%;}
 }
