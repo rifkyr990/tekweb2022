@@ -50,7 +50,7 @@ const header = {
                 {
                     title: 'Figma',
                     level: 'Intermediate',
-                    image: './img/com.jpg',
+                    image: './img/figma.png',
                     deskripsi: 'Figma adalah sebuah aplikasi desain berbasis cloud dan alat prototyping untuk proyek digital.'
                 }
             ]
