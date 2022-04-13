@@ -1,19 +1,24 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "content": {
+      "head": "HEY THERE",
+      "nama": "Rifky Ramadhan",
+      "location": "Based In Indonesia"
+  },
+  "portofolio": [
+      {
+          "id1": 1,
+          "judul": "Akademis",
+          "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti"
+      },
+      {
+          "id": 2,
+          "judul": "Project",
+          "deskripsi": "Beberapa project yang pernah saya buat ketika proses pembelajaran"
+      },
+      {
+          "id": 3,
+          "judul": "Komunitas",
+          "deskripsi": "Komunitas yang saya ikuti dalam mengikuti perkembangan teknologi web"
+      }
+  ]
 }
