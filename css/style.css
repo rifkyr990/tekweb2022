@@ -216,7 +216,7 @@ article .card {
     p.card-text{font-size: 16px;}
     .card , .about-me{width: 100%;}
     .card-img-top {width: 100%;}
-    .my-article{height: 100%;}
+    .my-article, .my-skil{height: 100%;}
     .sosmed {margin-top: 10px;}
     div.card.bg-light {width: 25rem;}
     .container .form-switch{right: 40px;}
