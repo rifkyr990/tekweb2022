@@ -1,24 +1,42 @@
 {
-  "todos": [
-    {
-      "id": 0,
-      "name": "Go to the gym",
-      "done": false
-    },
-    {
-      "id": 1,
-      "name": "Walk the dog",
-      "done": false
-    },
-    {
-      "id": 2,
-      "name": "Get some pizza",
-      "done": false
-    },
-    {
-      "name": "Finish this project",
-      "id": 3,
-      "done": false
-    }
-  ]
+    "todos": [{
+            "id": 0,
+            "name": "Go to the gym",
+            "done": false
+        },
+        {
+            "id": 1,
+            "name": "Walk the dog",
+            "done": false
+        },
+        {
+            "id": 2,
+            "name": "Get some pizza",
+            "done": false
+        },
+        {
+            "name": "Finish this project",
+            "id": 3,
+            "done": false
+        }
+    ],
+    "article": [
+        {
+            "id": 0,
+            "judul": "Akademis",
+            "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti",
+            "image": "./img/edu.jpg"
+        },
+        {
+            "id": 1,
+            "judul": "Project",
+            "deskripsi": "Beberapa project yang pernah saya buat ketika proses pembelajaran",
+            "image": "./img/code.jpg"
+        },
+        {
+            "judul": "Komunitas",
+            "deskripsi": "Komunitas yang saya ikuti dalam mengikuti perkembangan teknologi web",
+            "image": "./img/com.jpg"
+        }
+    ]
 }
