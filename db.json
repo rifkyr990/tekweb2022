@@ -1,24 +1,24 @@
 {
-  "content": {
-      "head": "HEY THERE",
-      "nama": "Rifky Ramadhan",
-      "location": "Based In Indonesia"
-  },
-  "portofolio": [
-      {
-          "id1": 1,
-          "judul": "Akademis",
-          "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti"
-      },
-      {
-          "id": 2,
-          "judul": "Project",
-          "deskripsi": "Beberapa project yang pernah saya buat ketika proses pembelajaran"
-      },
-      {
-          "id": 3,
-          "judul": "Komunitas",
-          "deskripsi": "Komunitas yang saya ikuti dalam mengikuti perkembangan teknologi web"
-      }
+  "todos": [
+    {
+      "id": 0,
+      "name": "Go to the gym",
+      "done": false
+    },
+    {
+      "id": 1,
+      "name": "Walk the dog",
+      "done": false
+    },
+    {
+      "id": 2,
+      "name": "Get some pizza",
+      "done": false
+    },
+    {
+      "name": "Finish this project",
+      "id": 3,
+      "done": false
+    }
   ]
 }
