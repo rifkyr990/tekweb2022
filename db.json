@@ -1,25 +1,4 @@
 {
-    "todos": [{
-            "id": 0,
-            "name": "Go to the gym",
-            "done": false
-        },
-        {
-            "id": 1,
-            "name": "Walk the dog",
-            "done": false
-        },
-        {
-            "id": 2,
-            "name": "Get some pizza",
-            "done": false
-        },
-        {
-            "name": "Finish this project",
-            "id": 3,
-            "done": false
-        }
-    ],
     "article": [
         {
             "id": 0,
@@ -34,9 +13,28 @@
             "image": "./img/code.jpg"
         },
         {
+            "id": 2,
             "judul": "Komunitas",
             "deskripsi": "Komunitas yang saya ikuti dalam mengikuti perkembangan teknologi web",
             "image": "./img/com.jpg"
+        },
+        {
+            "id": 3,
+            "judul": "Kelebihan dan kekurangan Vue JS",
+            "deskripsi": "VueJS kini merupakan salah satu Frontend Framework yang populer. Menurut Survei Developer oleh Stackoverflow pada tahun 2021",
+            "image": "./img/artikel4.jpg"
+        },
+        {
+            "id": 4,
+            "judul": "Framework Javascript terpopuler 2022",
+            "deskripsi": "JavaScript saat ini muncul sebagai bahasa pemrograman paling populer di dunia selama 6 tahun berturut-turut.",
+            "image": "./img/artikel2.jpg"
+        },
+        {
+            "id": 5,
+            "judul": "Framework Javascript untuk membuat GUI",
+            "deskripsi": " jenis framework Javascript untuk membuat aplikasi GUI/Desktop.",
+            "image": "./img/artikel3.png"
         }
     ]
 }
