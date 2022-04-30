@@ -3,6 +3,7 @@
         {
             "id": 0,
             "judul": "Akademis",
+            "tanggal": "24 Maret 2022",
             "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti",
             "image": "./img/edu.jpg",
             "link": ""
@@ -10,6 +11,7 @@
         {
             "id": 1,
             "judul": "Project",
+            "tanggal": "30 Maret 2022",
             "deskripsi": "Beberapa project yang pernah saya buat ketika proses pembelajaran",
             "image": "./img/code.jpg",
             "link": ""
@@ -17,6 +19,7 @@
         {
             "id": 2,
             "judul": "Komunitas",
+            "tanggal": "30 Maret 2022",
             "deskripsi": "Komunitas yang saya ikuti dalam mengikuti perkembangan teknologi web",
             "image": "./img/com.jpg",
             "link": ""
@@ -24,6 +27,7 @@
         {
             "id": 3,
             "judul": "Kelebihan dan kekurangan Vue JS",
+            "tanggal": "10 Agustus 2021",
             "deskripsi": "VueJS kini merupakan salah satu Frontend Framework yang populer. Menurut Survei Developer oleh Stackoverflow pada tahun 2021",
             "image": "./img/artikel4.jpg",
             "link": "https://www.gamelab.id/news/840-kupas-tuntas-kelebihan-dan-kelemahan-vue-js"
@@ -31,6 +35,7 @@
         {
             "id": 4,
             "judul": "Framework Javascript terpopuler 2022",
+            "tanggal": "13 Maret 2022",
             "deskripsi": "JavaScript saat ini muncul sebagai bahasa pemrograman paling populer di dunia selama 6 tahun berturut-turut.",
             "image": "./img/artikel2.jpg",
             "link": "https://www.matawebsite.com/blog/framework-javascript-teratas-di-tahun-2019"
@@ -38,6 +43,7 @@
         {
             "id": 5,
             "judul": "Framework Javascript untuk membuat GUI",
+            "tanggal": "17 Mei 2018",
             "deskripsi": "Jenis framework Javascript yang cocok dan compatible untuk membuat aplikasi GUI/Desktop.",
             "image": "./img/artikel3.png",
             "link": "https://codelapan.com/post/rekomendasi-framework-javascript-untuk-membuat-aplikasi-gui-desktop"
