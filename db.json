@@ -48,5 +48,12 @@
             "image": "./img/artikel3.png",
             "link": "https://codelapan.com/post/rekomendasi-framework-javascript-untuk-membuat-aplikasi-gui-desktop"
         }
-    ]
+    ],
+    "aboutMe": {
+        "id": 0,
+        "nama": "Rifky Ramadhan",
+        "posisi": "Front End Developer",
+        "story": "",
+        "link": ""
+    }
 }
