@@ -6,7 +6,7 @@
             "tanggal": "24 Maret 2022",
             "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti",
             "image": "./img/edu.jpg",
-            "link": ""
+            "link": "./notFound.html"
         },
         {
             "id": 1,
@@ -14,7 +14,7 @@
             "tanggal": "30 Maret 2022",
             "deskripsi": "Beberapa project yang pernah saya buat ketika proses pembelajaran",
             "image": "./img/project.jpg",
-            "link": ""
+            "link": "./notFound.html"
         },
         {
             "id": 2,
@@ -22,7 +22,7 @@
             "tanggal": "30 Maret 2022",
             "deskripsi": "Komunitas yang saya ikuti dalam mengikuti perkembangan teknologi web",
             "image": "./img/community.jpg",
-            "link": ""
+            "link": "./notFound.html"
         },
         {
             "id": 3,
