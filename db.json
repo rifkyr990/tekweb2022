@@ -6,7 +6,7 @@
             "tanggal": "24 Maret 2022",
             "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti",
             "image": "./img/edu.jpg",
-            "link": "./article/article1.md"
+            "link": "https://raw.githubusercontent.com/showdownjs/showdown/master/README.md"
         },
         {
             "id": 1,
