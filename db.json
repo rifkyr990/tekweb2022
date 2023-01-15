@@ -1,51 +1,27 @@
 {
     "article": [{
             "id": 0,
-            "judul": "Akademis",
-            "tanggal": "24 Maret 2022",
-            "deskripsi": "bidang akademis pendidikan formal dan non formal yang pernah digeluti",
+            "judul": "LaundryGo",
+            "tanggal": "10 November 2022",
+            "deskripsi": "LaundryGo merupakan aplikasi laundry online berbasis website, aplikasi ini memiliki fitur yang beragam diantaranya ada order,cancel order, artikel dan lainnya",
             "image": "./img/edu.jpg",
             "link": "article1.md"
         },
         {
             "id": 1,
-            "judul": "Project",
-            "tanggal": "30 Maret 2022",
-            "deskripsi": "Beberapa project yang pernah saya buat ketika proses pembelajaran",
+            "judul": "BagUp Store",
+            "tanggal": "30 Desember 2022",
+            "deskripsi": "BagUp Store merupakan aplikasi penjualan totebag online berbasis website, aplikasi ini ditujukan untuk mempermudah akses pelanggan dalam membeli sebuah totebag.",
             "image": "./img/project.jpg",
             "link": "./article/notFound.html"
         },
         {
             "id": 2,
-            "judul": "Komunitas",
-            "tanggal": "18 Mei 2022",
-            "deskripsi": "Hasil analisis sebuah proses bisnis dari Restaurant Sugara Milk",
+            "judul": "Gift.co",
+            "tanggal": "15 Januari 2023",
+            "deskripsi": "BagUp Store merupakan aplikasi penjualan Bucket online berbasis website, aplikasi ini ditujukan untuk mempermudah akses pelanggan dalam membeli sebuah bucket.",
             "image": "./img/community.jpg",
             "link": "./article/apb.html"
-        },
-        {
-            "id": 3,
-            "judul": "Kelebihan dan kekurangan Vue JS",
-            "tanggal": "10 Agustus 2021",
-            "deskripsi": "VueJS kini merupakan salah satu Frontend Framework yang populer. Menurut Survei Developer oleh Stackoverflow pada tahun 2021",
-            "image": "./img/artikel4.jpg",
-            "link": "article2.md"
-        },
-        {
-            "id": 4,
-            "judul": "Framework Javascript terpopuler 2022",
-            "tanggal": "13 Maret 2022",
-            "deskripsi": "JavaScript saat ini muncul sebagai bahasa pemrograman paling populer di dunia selama 6 tahun berturut-turut.",
-            "image": "./img/artikel2.jpg",
-            "link": "article3.md"
-        },
-        {
-            "id": 5,
-            "judul": "Framework Javascript untuk membuat GUI",
-            "tanggal": "17 Mei 2018",
-            "deskripsi": "Jenis framework Javascript yang cocok dan compatible untuk membuat project aplikasi GUI/Desktop.",
-            "image": "./img/artikel3.png",
-            "link": "article4.md"
         }
     ]
 }
