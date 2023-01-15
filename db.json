@@ -5,7 +5,7 @@
             "tanggal": "10 November 2022",
             "deskripsi": "LaundryGo merupakan aplikasi laundry online berbasis website, aplikasi ini memiliki fitur yang beragam diantaranya ada order,cancel order, artikel dan lainnya",
             "image": "./img/edu.jpg",
-            "link": "article1.md"
+            "link": "https://github.com/rifkyr990/LaundryApps"
         },
         {
             "id": 1,
@@ -13,15 +13,15 @@
             "tanggal": "30 Desember 2022",
             "deskripsi": "BagUp Store merupakan aplikasi penjualan totebag online berbasis website, aplikasi ini ditujukan untuk mempermudah akses pelanggan dalam membeli sebuah totebag.",
             "image": "./img/project.jpg",
-            "link": "./article/notFound.html"
+            "link": "https://github.com/rifkyr990/TotebagStore"
         },
         {
             "id": 2,
             "judul": "Gift.co",
             "tanggal": "15 Januari 2023",
-            "deskripsi": "BagUp Store merupakan aplikasi penjualan Bucket online berbasis website, aplikasi ini ditujukan untuk mempermudah akses pelanggan dalam membeli sebuah bucket.",
+            "deskripsi": "Gift.co merupakan aplikasi penjualan Bucket online berbasis website, aplikasi ini ditujukan untuk mempermudah akses pelanggan dalam membeli sebuah bucket.",
             "image": "./img/community.jpg",
-            "link": "./article/apb.html"
+            "link": "https://github.com/rifkyr990/BucketStore"
         }
     ]
 }
